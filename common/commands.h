@@ -26,3 +26,15 @@ class lineCount : public CommandWithFile
 public:
     void execute(const std::string &fileName) override;
 };
+
+class wordCount : public CommandWithFile
+{
+public:
+    void execute(const std::string &fileName) override;
+};
+
+class charCount : public CommandWithFile
+{
+public:
+    void execute(const std::string &fileName) override;
+};
